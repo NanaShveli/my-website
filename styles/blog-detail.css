@@ -1,0 +1,17 @@
+.container.blog-detail .main-img {
+    width: 100%;
+    width: 100%;
+    aspect-ratio: 1/9;
+    object-fit:contain;
+}
+
+.container.blog-detail .similar-container {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.container.blog-detail .similar-container h2 {
+    grid-column: 1 / span 5;
+}

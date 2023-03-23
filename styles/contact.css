@@ -1,0 +1,27 @@
+.container.contact {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 5fr));
+    width: 800px;
+}
+
+.container.contact label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 30px ;
+}
+
+
+
+.container.contact textarea {
+    height: initial;
+    padding-block: 9px;
+}
+
+.container.contact button {
+	background: var(--blue);
+	color: white;
+	border: 10;
+	font-size: 26px;
+	padding: 8px 35px;
+	margin-bottom: 35px;
+}
