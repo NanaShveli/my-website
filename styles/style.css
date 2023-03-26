@@ -10,15 +10,15 @@ body {
 
 /* global styles */
 .container {
-    width: 1190px;
-    margin: 0;
+    width: 1020px;
+    margin: auto;
 }
 
 .view-port-fit {
-    min-height: calc(100vh - (70px + 40px));
+    min-height: calc(100vh - (70px + 80px));
 }
 
-.d-flex {
+.d-flex
     display: flex;
 }
 
@@ -61,17 +61,17 @@ footer {
     
         clear: both;
         position: relative;
-        height: 50px;
+        height: 80px;
     display: flex;
     align-items: center;
-    padding: 3px 3;
+    padding: 15px 0;
     background-color: var(--blue);
     box-sizing: border-box;
      
 }
 
 footer p {
-    margin: 9;
+    margin: 0;
 }
 
 
