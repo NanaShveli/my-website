@@ -74,14 +74,40 @@ footer p {
     margin: 0;
 }
 
+.w-100 {
+    width: 80%;
+}
+.auth-form-container {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
 
+.auth-form-container .text-input-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.auth-form-container .text-input,
+.auth-form-container .locations {
+    height: 35px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+}
+
+.auth-form-container .locations {
+    background-color: white;
+}
 
 .form-group {
     margin-bottom: 15px;
-}
-
-.w-100 {
-    width: 80%;
 }
 
 .mb-15 {
